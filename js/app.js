@@ -6,6 +6,8 @@ function adicionar() {
     amigos.push(`${amigo.value}`);
     
     lista.textContent = amigos;
+
+    document.getElementById('nome-amigo').value = '';
 }
 
 function sortear() {
