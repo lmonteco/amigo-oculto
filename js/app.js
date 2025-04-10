@@ -6,9 +6,13 @@ let amigos = [];
 function adicionar() {
     amigos.push(`${amigo.value}`);
     
-    lista.textContent += `${amigo.value}, `;
+    lista.innerHTML += `<span class="clickable" onclick="remover(event)">${amigo.value}, </span>`;
 
     document.getElementById('nome-amigo').value = '';
+}
+
+function remover(event) {
+    event.target.remove();
 }
 
 function sortear() {
