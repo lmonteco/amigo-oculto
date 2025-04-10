@@ -10,7 +10,9 @@ function adicionar() {
 
 function sortear() {
     embaralhar(amigos);
+    
     let listaSorteio = document.getElementById('lista-sorteio');
+
     for (let i = 0; i < amigos.length; i++) {
         if (i == amigos.length - 1) {
             listaSorteio.innerHTML += `<li>${amigos[amigos.length - 1]} -> ${amigos[0]}</li>`;        
