@@ -6,7 +6,7 @@ let amigos = [];
 function adicionar() {
     amigos.push(`${amigo.value}`);
     
-    lista.textContent = amigos;
+    lista.textContent += `${amigo.value}, `;
 
     document.getElementById('nome-amigo').value = '';
 }
