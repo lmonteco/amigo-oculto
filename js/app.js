@@ -6,11 +6,13 @@ function adicionar() {
     amigos.push(`${amigo.value}`);
     
     lista.textContent = amigos;
+
+    document.getElementById('nome-amigo') = '';
 }
 
 function sortear() {
     embaralhar(amigos);
-    
+
     let listaSorteio = document.getElementById('lista-sorteio');
 
     for (let i = 0; i < amigos.length; i++) {
