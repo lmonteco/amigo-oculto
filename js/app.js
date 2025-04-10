@@ -1,5 +1,6 @@
 let amigo = document.getElementById('nome-amigo');
 let lista = document.getElementById('lista-amigos');
+let listaSorteio = document.getElementById('lista-sorteio');
 let amigos = [];
 
 function adicionar() {
@@ -11,9 +12,8 @@ function adicionar() {
 }
 
 function sortear() {
+    listaSorteio.innerHTML = '';
     embaralhar(amigos);
-
-    let listaSorteio = document.getElementById('lista-sorteio');
 
     for (let i = 0; i < amigos.length; i++) {
         if (i == amigos.length - 1) {
