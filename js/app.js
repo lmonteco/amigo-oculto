@@ -9,6 +9,11 @@ function adicionar() {
         return;
     }
 
+    if (amigos.includes(amigo.value)) {
+        alert(`${amigo.value} já foi adicionado à lista. Escolha outro nome`);
+        return;
+    }
+
     amigos.push(`${amigo.value}`);
     
     if (amigo.value == amigos[0]) {
