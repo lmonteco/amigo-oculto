@@ -6,7 +6,11 @@ let amigos = [];
 function adicionar() {
     amigos.push(`${amigo.value}`);
     
-    lista.innerHTML += `<span class="clickable" onclick="remover(event)">${amigo.value}, </span>`;
+    if (amigo.value == amigos[0]) {
+        lista.innerHTML += `<span class="clickable" onclick="remover(event)">${amigo.value}</span>`;
+    } else {
+        lista.innerHTML += `<span class="clickable" onclick="remover(event)">, ${amigo.value}</span>`;
+    }
 
     document.getElementById('nome-amigo').value = '';
 }
