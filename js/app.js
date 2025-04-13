@@ -25,8 +25,8 @@ function remover(event) {
 }
 
 function sortear() {
-    if (amigos.length <= 1) {
-        alert('Por favor, adicione mais nomes à lista.');
+    if (amigos.length <= 3) {
+        alert('Por favor, adicione pelo menos 4 amigos.');
         return;
     }
 
