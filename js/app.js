@@ -4,6 +4,11 @@ let listaSorteio = document.getElementById('lista-sorteio');
 let amigos = [];
 
 function adicionar() {
+    if (amigo.value === '') {
+        alert('Por favor, insira um nome válido.');
+        return;
+    }
+
     amigos.push(`${amigo.value}`);
     
     if (amigo.value == amigos[0]) {
@@ -20,6 +25,11 @@ function remover(event) {
 }
 
 function sortear() {
+    if (amigos.length <= 1) {
+        alert('Por favor, adicione mais nomes à lista.');
+        return;
+    }
+
     listaSorteio.innerHTML = '';
     embaralhar(amigos);
 
