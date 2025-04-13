@@ -3,11 +3,15 @@ let outraLista = [4, 5, 6];
 
 let novaLista = minhaLista.concat(outraLista);
 
-console.log(novaLista);
+console.log('Lista 1' + ' - ' + minhaLista);
+console.log('Lista 2' + ' - ' + outraLista);
+
+
+console.log('Concatenando listas' + ' ' + novaLista);
 
 novaLista.pop(); //desafio 2
 
-console.log(novaLista);
+console.log('Retirando último elemento de array' + ' ' + novaLista);
 
 function shuffle(array) {
     var m = array.length, t, i;
@@ -27,5 +31,12 @@ function shuffle(array) {
     return array;
   }
 
-console.log(shuffle(novaLista));
+console.log('Embaralhando...' + ' ' + shuffle(novaLista));
   
+function removerDuplicatas(array) {
+  var uniqueArr = [...new Set(array)]
+
+  console.log(`Removendo duplicatas... ${uniqueArr}`)  
+}
+
+removerDuplicatas(novaLista);
