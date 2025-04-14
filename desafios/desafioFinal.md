@@ -2,7 +2,7 @@
 [x] - Implemente uma função que verifique se uma pessoa é maior de idade.
 [x] - Desenvolva uma função que valide se uma string é vazia ou não.
 [x] - Crie uma função que determine se um ano é bissexto
-[ ] - Implemente uma função que calcule a média de dois números, interrompendo a execução se algum dos números não for válido.
+[x] - Implemente uma função que calcule a média de dois números, interrompendo a execução se algum dos números não for válido.
 [ ] - Desenvolva uma função que receba um array como parâmetro e retorne o seu tamanho.
 [ ] - Crie um array e utilize a função includes para verificar se um elemento específico está presente
 [ ] - Implemente uma função que receba um array e um elemento, e retorne se o elemento está presente no array.

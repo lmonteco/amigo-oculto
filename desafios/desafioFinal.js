@@ -35,10 +35,7 @@ verificarIdade(8); */
 validarString(""); */
 
 //desafio 4
-/* É múltiplo de 400
-É múltiplo de 4 mas não é de 100 */
-
-function validarBissexto(ano) {
+/* function validarBissexto(ano) {
     if (ano == '' || isNaN(ano)){
         console.log('Insira um ano válido, por favor.');
         return;
@@ -56,4 +53,16 @@ function validarBissexto(ano) {
     }
 }
 
-validarBissexto(1996);
+validarBissexto(1996); */
+
+//desafio 5
+function calcularMedia(n1, n2) {
+    if (isNaN(n1) || isNaN(n2)) {
+        console.log(`Insira um número válido, por favor.`);
+        return;        
+    }
+    soma = n1 + n2;
+    console.log(soma / 2);
+}
+
+calcularMedia(67, 39);
