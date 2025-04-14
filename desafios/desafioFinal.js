@@ -56,7 +56,7 @@ validarString(""); */
 validarBissexto(1996); */
 
 //desafio 5
-function calcularMedia(n1, n2) {
+/* function calcularMedia(n1, n2) {
     if (isNaN(n1) || isNaN(n2)) {
         console.log(`Insira um número válido, por favor.`);
         return;        
@@ -65,4 +65,12 @@ function calcularMedia(n1, n2) {
     console.log(soma / 2);
 }
 
-calcularMedia(67, 39);
+calcularMedia(67, 39); */
+
+//desafio 6
+function exibirTamanhoArray(array) {
+    console.log(array.length);
+}
+
+let numeros = [12, 32, 41, 56, 39];
+exibirTamanhoArray(numeros);
