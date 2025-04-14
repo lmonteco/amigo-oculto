@@ -89,6 +89,15 @@ function verificarElementoArray(array, elemento) {
 verificarElementoArray(numeros, 11); */
 
 //desafio 9
-let frutas = ['banana', 'maçã', 'abacaxi', 'bergamota'];
+/* let frutas = ['banana', 'maçã', 'abacaxi', 'bergamota'];
 
-console.log(frutas.includes('abacaxi'));
+console.log(frutas.includes('abacaxi')); */
+
+//desafio 10
+let estudantes = ['Marcelo', 'Lucas', 'Maria', 'Joaquina', 'Pato Donald'];
+
+function verificarEstudantes(array, objeto) {
+    console.log(array.includes(objeto));
+}
+
+verificarEstudantes(estudantes, 'Lucas');
