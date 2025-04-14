@@ -14,9 +14,9 @@ function adicionar() {
         return;
     }
 
-    amigos.push(`${amigo.value}`);
-    
-    if (amigo.value == amigos[0]) {
+    amigos.push(amigo.value);
+
+    if (amigos.length == 1) {
         lista.innerHTML += `<span class="clickable" onclick="remover(event)">${amigo.value}</span>`;
     } else {
         lista.innerHTML += `<span class="clickable" onclick="remover(event)">, ${amigo.value}</span>`;
@@ -30,6 +30,8 @@ function remover(event) {
 }
 
 function sortear() {
+    document.getElementById('nome-amigo').value = '';
+
     if (amigos.length <= 3) {
         alert('Por favor, adicione pelo menos 4 amigos.');
         return;
