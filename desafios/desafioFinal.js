@@ -80,10 +80,15 @@ exibirTamanhoArray(numeros); */
 console.log(numeros.includes(12)); */
 
 //desafio 8
-let numeros = [12, 32, 41, 56, 39];
+/* let numeros = [12, 32, 41, 56, 39];
 
 function verificarElementoArray(array, elemento) {
     console.log(array.includes(elemento));
 }
 
-verificarElementoArray(numeros, 11);
+verificarElementoArray(numeros, 11); */
+
+//desafio 9
+let frutas = ['banana', 'maçã', 'abacaxi', 'bergamota'];
+
+console.log(frutas.includes('abacaxi'));
