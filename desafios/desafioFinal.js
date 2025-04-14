@@ -1,4 +1,4 @@
-function validarPositivo(n) {
+/* function validarPositivo(n) {
     if (n > 0) {
         console.log(`${n} é positivo`);
     } else if (n < 0) {
@@ -8,4 +8,16 @@ function validarPositivo(n) {
     }
 }
 
-validarPositivo(-3);
+validarPositivo(-3); */
+
+
+function verificarIdade(idade) {
+
+    if (idade >= 18) {
+        console.log('Você é maior de idade.');
+    } else {
+        console.log('Você é menor de idade.');
+    }
+}
+
+verificarIdade(8);
