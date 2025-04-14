@@ -94,10 +94,46 @@ verificarElementoArray(numeros, 11); */
 console.log(frutas.includes('abacaxi')); */
 
 //desafio 10
-let estudantes = ['Marcelo', 'Lucas', 'Maria', 'Joaquina', 'Pato Donald'];
+/* let estudantes = ['Marcelo', 'Lucas', 'Maria', 'Joaquina', 'Pato Donald'];
 
 function verificarEstudantes(array, objeto) {
     console.log(array.includes(objeto));
 }
 
-verificarEstudantes(estudantes, 'Lucas');
+verificarEstudantes(estudantes, 'Lucas'); */
+
+//desafio 11
+let numeros = [12, 32, 41, 56, 39];
+
+function calcularSomaEProduto(array) {
+    let par = array.filter((num) => num % 2 == 0);
+    let impar = array.filter((num) => num % 2 != 0);
+    
+    let soma = par.reduce(function(soma, num){
+        return soma + num;
+        });
+
+    let produto = impar.reduce(function(total, num){
+        return total = total * num;
+        });
+    
+    // Alternativas
+
+    // let soma = 0
+    // let produto = 1
+    // // SOMA
+    // for (let i = 0; i < par.length; i++) {
+    //     soma += par[i];
+    // }
+    // // PRODUTO
+    // for (let j = 0; j < impar.length; j++) {
+    //     console.log(impar[j]);
+        
+    //     produto *= impar[j];
+    // }
+
+    console.log('Resultado da Soma' + ': ' + soma);
+    console.log('Resultado do Produto' + ': ' + produto);
+}
+
+calcularSomaEProduto(numeros);

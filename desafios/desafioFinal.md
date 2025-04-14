@@ -8,4 +8,4 @@
 [x] - Implemente uma função que receba um array e um elemento, e retorne se o elemento está presente no array.
 [x] - Crie um array de strings e utilize includes para verificar se uma determinada string está presente.
 [x] - Desenvolva uma função que receba um array de objetos representando estudantes de um curso e um objeto que representa um estudante procurado. Depois retorne se o objeto está presente no array.
-[ ] - Crie uma função que receba um array de números e retorne a soma dos elementos pares e o produto dos elementos ímpares.
+[x] - Crie uma função que receba um array de números e retorne a soma dos elementos pares e o produto dos elementos ímpares.
