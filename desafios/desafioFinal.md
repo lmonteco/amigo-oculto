@@ -1,6 +1,6 @@
 [x] - Crie uma função que valide se um número é positivo, negativo ou zero.
 [x] - Implemente uma função que verifique se uma pessoa é maior de idade.
-[ ] - Desenvolva uma função que valide se uma string é vazia ou não.
+[x] - Desenvolva uma função que valide se uma string é vazia ou não.
 [ ] - Crie uma função que determine se um ano é bissexto
 [ ] - Implemente uma função que calcule a média de dois números, interrompendo a execução se algum dos números não for válido.
 [ ] - Desenvolva uma função que receba um array como parâmetro e retorne o seu tamanho.

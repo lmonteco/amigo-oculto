@@ -1,3 +1,4 @@
+// desafio 1
 /* function validarPositivo(n) {
     if (n > 0) {
         console.log(`${n} é positivo`);
@@ -10,8 +11,8 @@
 
 validarPositivo(-3); */
 
-
-function verificarIdade(idade) {
+// desafio 2
+/* function verificarIdade(idade) {
 
     if (idade >= 18) {
         console.log('Você é maior de idade.');
@@ -20,4 +21,15 @@ function verificarIdade(idade) {
     }
 }
 
-verificarIdade(8);
+verificarIdade(8); */
+
+// desafio 3
+function validarString(string) {
+    if (string == '') {
+        console.log('A string está vazia');
+    } else {
+        console.log(string);
+    }
+}
+
+validarString("");
