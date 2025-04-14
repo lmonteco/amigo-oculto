@@ -68,9 +68,13 @@ validarBissexto(1996); */
 calcularMedia(67, 39); */
 
 //desafio 6
-function exibirTamanhoArray(array) {
+/* function exibirTamanhoArray(array) {
     console.log(array.length);
 }
 
 let numeros = [12, 32, 41, 56, 39];
-exibirTamanhoArray(numeros);
+exibirTamanhoArray(numeros); */
+
+//desafio 7
+let numeros = [12, 32, 41, 56, 39];
+console.log(numeros.includes(12));
